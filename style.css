@@ -1,0 +1,37 @@
+.head{
+	text-align: center;
+	color: #ff9933;
+	font-weight: bolder;
+	font-family: Lucida Calligraphy;
+	 text-shadow: 2px 2px yellow;
+}
+
+.buttons{
+	display: flex;
+	justify-content: center;
+	grid-gap: 10px;
+}
+
+#container {
+  display: grid;
+  grid-gap: 0px;
+  margin-left: 30%;
+  margin-right: 30%;
+  height: 500px;
+  grid-template-rows: repeat(var(--grid-rows), auto);
+  grid-template-columns: repeat(var(--grid-cols),auto);
+  border-color: pink ;
+  border-style: solid;
+  border-width: 10px;
+  border-radius: 10px;  
+}
+
+:root {
+  background: #ccff66;
+}
+
+.grid-item {
+  border: 1px solid #ffcc80;
+  height: auto;
+  width: auto;
+}
