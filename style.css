@@ -20,14 +20,14 @@
   height: 500px;
   grid-template-rows: repeat(var(--grid-rows), auto);
   grid-template-columns: repeat(var(--grid-cols),auto);
-  border-color: pink ;
+  border-color: #e24a65 ;
   border-style: solid;
   border-width: 10px;
   border-radius: 10px;  
 }
 
 :root {
-  background: #ccff66;
+  background: #612647;
 }
 
 .grid-item {
