@@ -27,6 +27,9 @@ function makeRows(rows, cols) {
     container.appendChild(cell).className = "grid-item";
   };
 
+   random = false;
+   erase = false;
+
   //change color on hover
   const gridItems = document.querySelectorAll('.grid-item');
   gridItems.forEach(item => item.addEventListener('mouseover', () => {
